@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- top bar -->
+    <div class="row header">
+      <div class="col-2">
+        <img src="./images/Tool.png" alt="" srcset="" />
+      </div>
+      <div class="col-auto">
+        <h3 class="txt-header">Data Cleanup - Acme Employee Plan</h3>
+        <p class="desc">Configure workflows for bid data processing</p>
+        <div class="bar col-8">
+          <div class="bar-prog col-6"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dataset bar -->
+
+    <div class="dataset">
+      <h3>Dataset:</h3>
+      Dataset
+    </div>
+
+    <!-- Transformation/Action -->
+    <div class="row transformation">
+      <div class="transform-header">
+        <h3>Transformation Action</h3>
+      </div>
+      <div class="col-2">
+        <p>
+          Transform Column
+          <span
+            ><i
+              class="bi bi-question-circle-fill"
+              data-bs-toggle="tooltip"
+              data-bs-title="Choose the column you want to change"
+              data-bs-placement="top"
+            ></i
+          ></span>
+        </p>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Sex</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+        </select>
+        <div style="display: flex">
+          <button type="button" class="btn-replace" style="margin-right: 10px">
+            <img src="./images/replace.png" alt="" srcset="" />
+            Replace
+          </button>
+
+          <button type="button" class="btn-next">
+            <img src="./images/next.png" alt="" srcset="" />
+            Next
+          </button>
+        </div>
+      </div>
+      <div class="col-3">
+        <p>
+          Public Transform Strategy
+          <span
+            ><i
+              class="bi bi-question-circle-fill"
+              data-bs-toggle="tooltip"
+              data-bs-title="Choose the column you want to change"
+              data-bs-placement="top"
+            ></i
+          ></span>
+        </p>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Atomic Action</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-2">
+        <p>
+          Change Action
+          <span
+            ><i
+              class="bi bi-question-circle-fill"
+              data-bs-toggle="tooltip"
+              data-bs-title="Choose the column you want to change"
+              data-bs-placement="top"
+            ></i
+          ></span>
+        </p>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Replace Exact</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-2">
+        <p>
+          Value
+          <span
+            ><i
+              class="bi bi-question-circle-fill"
+              data-bs-toggle="tooltip"
+              data-bs-title="Choose the column you want to change"
+              data-bs-placement="top"
+            ></i
+          ></span>
+        </p>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder=""
+            aria-label=""
+            aria-describedby="basic-addon1"
+          />
+        </div>
+      </div>
+      <div class="col-2">
+        <p>
+          Replacement
+          <span
+            ><i
+              class="bi bi-question-circle-fill"
+              data-bs-toggle="tooltip"
+              data-bs-title="Choose the column you want to change"
+              data-bs-placement="top"
+            ></i
+          ></span>
+        </p>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder=""
+            aria-label=""
+            aria-describedby="basic-addon1"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="row charts">
+      <div style="display: flex; gap: 10px; padding: 10px 0px 0px 20px">
+        <h3>Charts</h3>
+        <button type="button" class="btn-chart">
+          <img src="./images/replace.png" alt="" />
+          Add Column Chart
+        </button>
+      </div>
+      <div class="col-2">
+        <img
+          src="./images/card1.png"
+          width="100%"
+          height="70%"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="col-2">
+        <img
+          src="images/card2.png"
+          width="100%"
+          height="70%"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="col-2">
+        <img
+          src="images/card3.png"
+          width="100%"
+          height="70%"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="col-2">
+        <img
+          src="images/card4.png"
+          width="100%"
+          height="70%"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="col-2">
+        <img
+          src="images/card5.png"
+          width="100%"
+          height="70%"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </div>
+
+    <!-- Working version -->
+    <div class="row working-version">
+      <div class="row mt-1 d-flex">
+        <div class="col-12 col-md-6 d-flex align-items-center mb-3 mb-md-0">
+          <strong>Working version of Data - Sex</strong>
+        </div>
+        <div class="col-12 col-md-6">
+          <form class="d-flex justify-content-md-end">
+            <div class="input-group">
+              <span
+                class="input-group-text"
+                id="basic-addon1"
+                style="background-color: #f6f6f8"
+              >
+                <i class="bi bi-search"></i>
+              </span>
+              <input
+                style="background-color: #f6f6f8"
+                class="form-control"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="container mt-4">
+        <div class="table-responsive border">
+          <table class="table">
+            <thead>
+              <tr>
+                <th style="color: #4a5568">ID</th>
+                <th style="color: #4a5568">SEX</th>
+                <th style="color: #4a5568">DATE OF BIRTH</th>
+                <th style="color: #4a5568">ANNUITANT TYPE</th>
+                <th style="color: #4a5568">MONTHLY PENSION</th>
+                <th style="color: #4a5568">SPOUSE SEX</th>
+                <th style="color: #4a5568">SPOUSE DATE OF BIRTH</th>
+                <th style="color: #4a5568">POSTAL CODE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>123</td>
+                <td>M</td>
+                <td>18/09/2016</td>
+                <td>JS250</td>
+                <td style="background-color: #ffe5e5"></td>
+                <td>F</td>
+                <td>Founder of Chakra UI</td>
+                <td>sage@chakra-ui.com</td>
+              </tr>
+              <tr>
+                <td>234</td>
+                <td>F</td>
+                <td>16/08/2013</td>
+                <td>DF889</td>
+                <td style="background-color: #ffe5e5"></td>
+                <td>M</td>
+                <td>Devloper</td>
+                <td>mark@chakra-ui.com</td>
+              </tr>
+              <tr>
+                <td>345</td>
+                <td>M</td>
+                <td>28/10/2012</td>
+                <td>BV896</td>
+                <td style="background-color: #ffe5e5"></td>
+                <td style="background-color: #ffe5e5">F</td>
+                <td style="background-color: #ffe5e5"></td>
+                <td>lazar@chakra-ui.com</td>
+              </tr>
+              <tr>
+                <td>456</td>
+                <td>F</td>
+                <td>12/06/2020</td>
+                <td>ER521</td>
+                <td style="background-color: #ffe5e5"></td>
+                <td>M</td>
+                <td>Designer</td>
+                <td>javi@chakra-ui.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>

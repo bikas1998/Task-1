@@ -1,0 +1,221 @@
+body {
+  background: #fafafb;
+}
+
+.header {
+  /* Rectangle 3 */
+
+  /* position: absolute; */
+  width: 100%;
+  margin-left: 0px;
+  height: 31vh;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.04);
+}
+
+.header img {
+  /* Vector */
+  width: 76px;
+  height: 76px;
+  margin-top: 37px;
+  margin-left: 45px;
+  bottom: 92.87%;
+}
+
+.txt-header {
+  /* Data Cleanup - Acme Employee Plan */
+
+  position: absolute;
+  width: 457px;
+  height: 31px;
+  left: 155px;
+  top: 42px;
+
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.desc {
+  /* Configure workflows for bid data processing */
+
+  position: absolute;
+  width: 377px;
+  height: 22px;
+  left: 155px;
+  top: 85px;
+
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #838383;
+}
+
+.bar {
+  /* Rectangle 1 */
+
+  position: absolute;
+  height: 20px;
+  left: 155px;
+  top: 141px;
+
+  background: #f6f6f8;
+  border-radius: 32px;
+}
+
+.bar-prog {
+  /* Rectangle 2 */
+
+  height: 20px;
+  left: 155px;
+  top: 141px;
+
+  background: #1fbe8d;
+  border-radius: 32px;
+}
+
+.dataset {
+  /* Rectangle 4 */
+
+  box-sizing: border-box;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+  height: 53px;
+  right: 56px;
+  margin: 36px 56px 52px 45px;
+
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  padding: 15px 0px 15px 15px;
+}
+
+.transformation {
+  /* Rectangle 5 */
+
+  box-sizing: border-box;
+  height: 277px;
+  margin: 0px 55px 36px 46px;
+  left: 46px;
+  top: 401px;
+
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+}
+
+.transform-header {
+  margin: 20px 28px 0px 0px;
+  /* font-family: Inter; */
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.63px;
+  text-align: left;
+  color: #000000;
+}
+
+.charts {
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+  margin: 36px 45px;
+  height: 240px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+}
+
+.working-version {
+  /* Rectangle 7 */
+
+  box-sizing: border-box;
+  margin: 36px 45px;
+  height: 336px;
+
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+}
+
+.btn-replace {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 8px;
+
+  height: 35px;
+  margin-top: 15px;
+
+  background: #3182ce;
+  border-radius: 6px;
+  color: #ffffff;
+  border: none;
+}
+.btn-replace img {
+  height: 12px;
+  width: 14px;
+}
+.btn-next {
+  /* Button */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 8px;
+
+  height: 35px;
+  left: 216px;
+  margin-top: 15px;
+
+  background: #ffffff;
+  border: 1px solid #3182ce;
+  border-radius: 6px;
+  color: #3182ce;
+}
+
+.btn-next img {
+  height: 12px;
+  width: 14px;
+  background-image: #3182ce;
+}
+
+.charts .btn-chart {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 8px;
+
+  width: 199px;
+  height: 40px;
+  left: 175px;
+  top: 737px;
+
+  /* blue/500 */
+  background: #3182ce;
+  border-radius: 6px;
+  color: #ffffff;
+  border: none;
+}
